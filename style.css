@@ -89,27 +89,7 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Media Query para telas menores */
-/* @media (max-width: 480px) {
-  .container {
-    padding: 15px;
-  }
 
-  h1, h2, h3 {
-    font-size: 1.1rem;
-  }
-
-  input[type="text"] {
-    font-size: 1rem;
-  }
-
-  button {
-    font-size: 1rem;
-  }
-} */
-
-
-/* Melhora ainda mais a legibilidade em telas menores */
 @media (max-width: 480px) {
   body {
     font-size: 18px; /* base maior em mobile */
