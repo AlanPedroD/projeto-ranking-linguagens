@@ -11,32 +11,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h2>TopWebLangs</h2>
-    <h3>Adicione, Exclua ou Substitua Linguagens</h3>
-
-    <h1>Linguagens de Programação Web</h1>
-
-    <ul id="listaLinguagens"></ul>
-
-    <div class="section">
-      <label for="">Adicionar linguagem</label>
-      <input type="text" id="inputNovaLinguagem" placeholder="Nova linguagem">
-      <button onclick="adicionarLinguagem()">Adicionar</button>
+  <main>
+    <div class="container">
+      <h2>TopWebLangs</h2>
+      <h3>Adicione, Exclua ou Substitua Linguagens</h3>
+      <h1>Linguagens de Programação Web</h1>
+      <ul id="listaLinguagens"></ul>
+      <div class="section">
+        <label for="">Adicionar linguagem</label>
+        <input type="text" id="inputNovaLinguagem" placeholder="Nova linguagem">
+        <button onclick="adicionarLinguagem()">Adicionar</button>
+      </div>
+      <div class="section">
+        <label for="">Excluir linguagem</label>
+        <input type="text" id="inputExcluirLinguagem" placeholder="Linguagem para excluir">
+        <button onclick="excluirLinguagem()">Excluir</button>
+      </div>
+      <div class="section">
+        <label for="">Substituir linguagem</label>
+        <input type="text" id="inputLinguagemAntiga" placeholder="Linguagem antiga">
+        <input type="text" id="inputLinguagemNova" placeholder="Nova linguagem">
+        <button onclick="substituirLinguagem()">Substituir</button>
+      </div>
     </div>
-
-    <div class="section">
-      <label for="">Excluir linguagem</label>
-      <input type="text" id="inputExcluirLinguagem" placeholder="Linguagem para excluir">
-      <button onclick="excluirLinguagem()">Excluir</button>
-    </div>
-
-    <div class="section">
-      <label for="">Substituir linguagem</label>
-      <input type="text" id="inputLinguagemAntiga" placeholder="Linguagem antiga">
-      <input type="text" id="inputLinguagemNova" placeholder="Nova linguagem">
-      <button onclick="substituirLinguagem()">Substituir</button>
-    </div>
-  </div>
+  </main>
 </body>
 </html>
