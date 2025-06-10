@@ -90,7 +90,7 @@ button:hover {
 }
 
 /* Media Query para telas menores */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .container {
     padding: 15px;
   }
@@ -105,5 +105,22 @@ button:hover {
 
   button {
     font-size: 1rem;
+  }
+} */
+
+
+/* Melhora ainda mais a legibilidade em telas menores */
+@media (max-width: 480px) {
+  body {
+    font-size: 18px; /* base maior em mobile */
+  }
+
+  h1, h2, h3 {
+    font-size: 1.3rem;
+  }
+
+  input[type="text"],
+  button {
+    font-size: 1.1rem;
   }
 }
