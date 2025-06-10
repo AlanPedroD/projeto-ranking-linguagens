@@ -107,22 +107,3 @@ button:hover {
     font-size: 1rem;
   }
 }
-
-
-
-
-
-/* Responsividade */
-/* @media (max-width: 600px) {
-  .container {
-    padding: 15px;
-  }
-
-  button {
-    width: 100%;
-  }
-
-  .section input[type="text"] {
-    margin-bottom: 10px;
-  }
-} */
