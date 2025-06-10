@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciar Linguagens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Fonte Montserrat  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h2>TopWebLangs</h2>
+  <div class="container">
+    <h1>Linguagens de Programação Web</h1>
+
+    <ul id="listaLinguagens"></ul>
+
+    <div class="section">
+      <label for="">Adicionar linguagem</label>
+      <input type="text" id="inputNovaLinguagem" placeholder="Nova linguagem">
+      <button onclick="adicionarLinguagem()">Adicionar</button>
+    </div>
+
+    <div class="section">
+      <label for="">Excluir liguagem</label>
+      <input type="text" id="inputExcluirLinguagem" placeholder="Linguagem para excluir">
+      <button onclick="excluirLinguagem()">Excluir</button>
+    </div>
+
+    <div class="section">
+      <label for="">Substituir linguagem</label>
+      <input type="text" id="inputLinguagemAntiga" placeholder="Linguagem antiga">
+      <input type="text" id="inputLinguagemNova" placeholder="Nova linguagem">
+      <button onclick="substituirLinguagem()">Substituir</button>
+    </div>
+  </div>
+
+</body>
+</html>
